@@ -12,7 +12,7 @@ case class Idotartam(ora: Int, perc: Int, mp: Int) {
 
 def minChar(lista: List[Char]): Char = {
   if (lista.isEmpty) {
-    Char.MinValue
+    Char.MaxValue
   } else {
     @tailrec
     def minChar(lista: List[Char], res: Char): Char = {
